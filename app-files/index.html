@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Idar Oberstein</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-eingang">
+        <li class="text">Eingang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-flur-1">
+        <li class="text">Flur 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-gste-wc">
+        <li class="text">Gäste WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-flur-2">
+        <li class="text">Flur 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-flur-3">
+        <li class="text">Flur 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-flur-4">
+        <li class="text">Flur 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-waschraum">
+        <li class="text">Waschraum</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-treppe-1-og-1">
+        <li class="text">Treppe 1 OG 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-treppe-2-og-1">
+        <li class="text">Treppe 2 OG 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-flur-og-1">
+        <li class="text">Flur OG 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-kinderzimmer-1">
+        <li class="text">Kinderzimmer 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-kinderzimmer-2">
+        <li class="text">Kinderzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-kinderzimmer-3">
+        <li class="text">Kinderzimmer 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-wc-1">
+        <li class="text">WC 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-wc-2">
+        <li class="text">WC 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-dusche">
+        <li class="text">Dusche</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-wc-3">
+        <li class="text">WC 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-treppe-dachboden-1">
+        <li class="text">Treppe Dachboden 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-treppe-dachboden-2">
+        <li class="text">Treppe Dachboden 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-dachboden-1">
+        <li class="text">Dachboden 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-dachboden-2">
+        <li class="text">Dachboden 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-kaminzimmer">
+        <li class="text">Kaminzimmer</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-kaminzimmer-2">
+        <li class="text">Kaminzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-3-schlafzimmer-">
+        <li class="text">3. Schlafzimmer </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-3-schlafzimmer-2">
+        <li class="text">3. Schlafzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-3-schlafzimmer-3">
+        <li class="text">3. Schlafzimmer 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-dachboden-3">
+        <li class="text">Dachboden 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-dachboden-4">
+        <li class="text">Dachboden 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-2-schlafzimmer-">
+        <li class="text">2. Schlafzimmer </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-2-schlafzimmer-2">
+        <li class="text">2. Schlafzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-1-schlafzimmer">
+        <li class="text">1. Schlafzimmer</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-1-schlafzimmer-2">
+        <li class="text">1. Schlafzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-1-schlafzimmer-3">
+        <li class="text">1. Schlafzimmer 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-5-schlafzimmer">
+        <li class="text">5. Schlafzimmer</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-5-schlafzimmer-2">
+        <li class="text">5. Schlafzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-5-schlafzimmer-3">
+        <li class="text">5. Schlafzimmer 3.</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-kellertreppe-1">
+        <li class="text">Kellertreppe 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-keller-1">
+        <li class="text">Keller 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-keller---werkstatt">
+        <li class="text">Keller - Werkstatt</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-keller---hobbyraum">
+        <li class="text">Keller - Hobbyraum</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-keller---hobbyraum-2">
+        <li class="text">Keller - Hobbyraum 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-keller---hobbyraum-3">
+        <li class="text">Keller - Hobbyraum 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-keller---hobbyraum-4">
+        <li class="text">Keller - Hobbyraum 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-keller---hobbyraum-5">
+        <li class="text">Keller - Hobbyraum 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-wohnzimmer-eingang">
+        <li class="text">Wohnzimmer Eingang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-wohnzimmer-1">
+        <li class="text">Wohnzimmer 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-wohnzimmer-2">
+        <li class="text">Wohnzimmer 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-kche-eingang">
+        <li class="text">Küche Eingang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-kche-2">
+        <li class="text">Küche 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-kche-1">
+        <li class="text">Küche 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-garten-1">
+        <li class="text">Garten 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-garten-2">
+        <li class="text">Garten 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-garten-3">
+        <li class="text">Garten 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-garten-4">
+        <li class="text">Garten 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-garten-5">
+        <li class="text">Garten 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-garteneingang">
+        <li class="text">Garteneingang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-gartendach">
+        <li class="text">Gartendach</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-keller-durchgang">
+        <li class="text">Keller Durchgang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-garage-1">
+        <li class="text">Garage 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-garage-2">
+        <li class="text">Garage 2</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
